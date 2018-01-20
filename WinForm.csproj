@@ -115,12 +115,14 @@
       <DependentUpon>Settings.settings</DependentUpon>
       <DesignTimeSharedInput>True</DesignTimeSharedInput>
     </Compile>
-    <None Include="WinForm_TemporaryKey.pfx" />
+    <None Include="README.md" />
   </ItemGroup>
   <ItemGroup>
     <Content Include="AdbTool\adb.exe" />
     <Content Include="AdbTool\AdbWinApi.dll" />
     <Content Include="AdbTool\AdbWinUsbApi.dll" />
+    <Content Include="Lib\AutoJump.Core.dll" />
+    <Content Include="Lib\AutoJump.Robot.Simple.dll" />
   </ItemGroup>
   <ItemGroup>
     <BootstrapperPackage Include=".NETFramework,Version=v4.6.1">
